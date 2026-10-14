@@ -1,0 +1,49 @@
+{
+  "1": {
+    "class_type": "CVMLocalThreeJS",
+    "inputs": {
+      "prompt": "一辆红色小车沿着道路缓缓行驶，路边有三棵树和两栋小房子。低多边形三维风格，明亮日光，镜头从斜前方平滑跟随，小车始终完整可见。",
+      "llm_model": "Qwen3.8-27B-UD-Q4_K_M.gguf",
+      "vision_model": "None",
+      "width": 960,
+      "height": 544,
+      "fps": 24,
+      "duration": 5,
+      "seed": 42,
+      "context_size": 16384,
+      "max_tokens": 6000,
+      "temperature": 0.3,
+      "gpu_layers": "auto",
+      "repair_attempts": 1,
+      "render_timeout": 600,
+      "backend": "api",
+      "api_base_url": "https://api.example.com/v1",
+      "api_model": "your-model-id",
+      "api_key": "env:CODEVIDEO_API_KEY",
+      "api_vision_review": false,
+      "api_timeout": 180,
+      "api_stream": true,
+      "api_options": "{}"
+    }
+  },
+  "2": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ],
+      "filename_prefix": "CodeVideo/scene",
+      "format": "auto"
+    }
+  },
+  "3": {
+    "class_type": "PreviewImage",
+    "inputs": {
+      "images": [
+        "1",
+        1
+      ]
+    }
+  }
+}

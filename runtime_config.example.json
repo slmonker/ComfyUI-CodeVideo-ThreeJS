@@ -1,0 +1,5 @@
+{
+  "python": "",
+  "browser_executable": "",
+  "llama_executable": "runtime/llama/llama-server.exe"
+}

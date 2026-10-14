@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+runtime_config.json
+runtime/llama/
+*.gguf
+*.dll
+*.exe
+*.log
+VALIDATION.json
+tests/*
+!tests/test_external_api.py
+outputs/
+node_preview.png
+

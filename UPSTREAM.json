@@ -1,0 +1,99 @@
+{
+  "repository": "https://github.com/code-video-model/CodeVideoModel",
+  "commit": "404e03d67c2977b441622ce94411470bb84984a8",
+  "files": [
+    {
+      "path": "LICENSE",
+      "gitBlob": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "assets/viewer/app.js",
+      "gitBlob": "9dbbbe647644f66b020f56d20ce954375e3df5fa"
+    },
+    {
+      "path": "assets/viewer/host.js",
+      "gitBlob": "941bfbca96e9cb2a8539abbc4c8c16bf39f580b5"
+    },
+    {
+      "path": "assets/viewer/index.html",
+      "gitBlob": "35b4f99dd476307eb13eaccb7cda9c70e2f44a46"
+    },
+    {
+      "path": "assets/viewer/inspector.js",
+      "gitBlob": "3277f075c2daf1c9319ab5dc928e4b62d4060bf5"
+    },
+    {
+      "path": "assets/viewer/style.css",
+      "gitBlob": "98d415074b0d39e10a749bb380c0ee569873b32f"
+    },
+    {
+      "path": "assets/viewer/three-bridge.js",
+      "gitBlob": "780497c33f7aa930e6dbf838660ad3b99a90314d"
+    },
+    {
+      "path": "cvm/__init__.py",
+      "gitBlob": "e70fd2bfa379d5b6c8d85f58bf1a07f15ac57627"
+    },
+    {
+      "path": "cvm/pair.py",
+      "gitBlob": "4a97696b333b049e3dc6d30559a304ece61f670c"
+    },
+    {
+      "path": "cvm/program.py",
+      "gitBlob": "042e7d4dda8209aa8f84c72fe4c29601af0cccd7"
+    },
+    {
+      "path": "inference/__init__.py",
+      "gitBlob": "e1ccca8d6ebedbc4135480fbf44af84543e29881"
+    },
+    {
+      "path": "inference/generate_threejs.py",
+      "gitBlob": "1f8acdd1a5b2a0ff1b713fa9b510a0f53cbc3af7"
+    },
+    {
+      "path": "inference/render.py",
+      "gitBlob": "955feea94f1e77d2ee22743e75a2b817c739149f"
+    },
+    {
+      "path": "inference/viewer.py",
+      "gitBlob": "21b1047e3ad7b5e099f47bbe0ef6b30a77930fbc"
+    },
+    {
+      "path": "prompts/camera_contract.md",
+      "gitBlob": "2dfebb03d856564d06839dfd1053153dd0c33f2b"
+    },
+    {
+      "path": "prompts/program.agent.md",
+      "gitBlob": "2da5724a1030583e5618c40564eb92b50f374192"
+    },
+    {
+      "path": "prompts/program.md",
+      "gitBlob": "08adfcc4ab197337bbac7f6430599a4f21a5d819"
+    },
+    {
+      "path": "prompts/program_contract.md",
+      "gitBlob": "95dee36f3b420754c284c3006ccd3e73459ba269"
+    },
+    {
+      "path": "prompts/program_header.md",
+      "gitBlob": "69121c8c467eb260a860d011d901e1eaaddd7734"
+    },
+    {
+      "path": "prompts/program_pair.json",
+      "gitBlob": "2686319c35b0b72b81bbacbc56e1eaa50b242779"
+    },
+    {
+      "path": "templates/index.html",
+      "gitBlob": "161f910a4c779fa65676c9a38c942a813a70e82f"
+    },
+    {
+      "path": "vendor/LICENSE.threejs",
+      "gitBlob": "c1164f70db3c08e0fd939c1247407df814d2ab74"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "gitBlob": "0bcc7a286da2c115853ceec9deea19923e10ddc1"
+    }
+  ],
+  "extracted": "2026-10-14"
+}
